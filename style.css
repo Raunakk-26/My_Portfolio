@@ -1880,3 +1880,30 @@ textarea.form-input::-webkit-resizer { display: none; }
   .timeline-text { max-width: 700px; }
 
 }
+
+/* Button styling */
+.get-resume-container {
+  text-align: center;
+  margin-top: 20px; /* Adjust spacing if needed */
+}
+
+.get-resume-btn {
+  display: inline-flex; /* Aligns text and icon horizontally */
+  align-items: center; /* Centers text and icon vertically */
+  background-color: hsl(45, 100%, 71%); /* Updated color */
+  color: rgb(0, 0, 0);
+  padding: 8px 20px; /* Reduced padding top and bottom */
+  border-radius: 50px; /* Curvy, pill-like edges */
+  font-size: 16px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.get-resume-btn ion-icon {
+  margin-left: 10px; /* Adds space between text and icon */
+  font-size: 18px; /* Adjust the icon size */
+}
+
+.get-resume-btn:hover {
+  background-color: hsl(45, 100%, 61%); /* Darker shade on hover */
+}
